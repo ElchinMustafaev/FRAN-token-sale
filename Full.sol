@@ -310,7 +310,7 @@ contract CommonCrowdsale is Ownable, LockableChanges {
   uint public invested;
   uint public minted;
 
-  address public wallet               = 0xF47B81BBA694ee8bDD7fd7BC40543b28126FdAEe; // ETH withdraw
+  address public wallet; // ETH withdraw
 
   struct Bonus {
     uint periodInDays;
